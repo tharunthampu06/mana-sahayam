@@ -71,46 +71,54 @@ const LOCATION_HIERARCHY: Record<string, Record<string, string[]>> = {
 const SAMPLE_PROFILES = [
   {
     label: "Rural B.Tech Student (Telangana)",
-    label_te: "గ్రామీణ B.Tech విద్యార్థి (తెలంగాణ)",
+    label_te: "గ్రామీణ B.Tech విద్యార్థి (తెలంగాణ)", label_hi: "ग्रामीण B.Tech छात्र (तेलंगाना)",
     state: "Telangana",
     district: "Medchal-Malkajgiri",
     mandal: "Ghatkesar",
     text_en: "Nenu 2nd year B.Tech student ni, rural village in Ghatkesar Telangana, BC-B category, annual family income 1.2 lakh, convener quota.",
     text_te: "నేను తెలంగాణ ఘట్‌కేసర్ గ్రామీణ ప్రాంతానికి చెందిన 2వ సంవత్సరం B.Tech విద్యార్థిని, BC-B కేటగిరీ, కుటుంబ వార్షిక ఆదాయం 1.2 లక్షలు, కన్వీనర్ కోటా.",
+    text_hi: "मैं तेलंगाना के घाटकेसर ग्रामीण क्षेत्र का द्वितीय वर्ष का B.Tech छात्र हूँ, BC-B श्रेणी, वार्षिक पारिवारिक आय 1.2 लाख रुपये, कन्वीनर कोटा।",
+    text_hi: "मैं तेलंगाना के घाटकेसर ग्रामीण क्षेत्र का द्वितीय वर्ष का B.Tech छात्र हूँ, BC-B श्रेणी, वार्षिक पारिवारिक आय 1.2 लाख रुपये, कन्वीनर कोटा।",
   },
   {
     label: "AP Degree Student (Urban)",
-    label_te: "ఆంధ్రప్రదేశ్ డిగ్రీ విద్యార్థి (పట్టణ)",
+    label_te: "ఆంధ్రప్రదేశ్ డిగ్రీ విద్యార్థి (పట్టణ)", label_hi: "आंध्र प्रदेश डिग्री छात्र (शहरी)",
     state: "Andhra Pradesh",
     district: "NTR",
     mandal: "Vijayawada Urban",
     text_en: "I am studying B.Sc Degree in Vijayawada Andhra Pradesh, BC category, urban area, annual family income 1.8 lakh.",
     text_te: "నేను ఆంధ్రప్రదేశ్ విజయవాడలో B.Sc డిగ్రీ చదువుతున్నాను, BC కేటగిరీ, పట్టణ ప్రాంతం, కుటుంబ వార్షిక ఆదాయం 1.8 లక్షలు.",
+    text_hi: "मैं आंध्र प्रदेश के विजयवाड़ा शहरी क्षेत्र में B.Sc डिग्री की पढ़ाई कर रहा हूँ, BC श्रेणी, वार्षिक पारिवारिक आय 1.8 लाख रुपये।",
+    text_hi: "मैं आंध्र प्रदेश के विजयवाड़ा शहरी क्षेत्र में B.Sc डिग्री की पढ़ाई कर रहा हूँ, BC श्रेणी, वार्षिक पारिवारिक आय 1.8 लाख रुपये।",
   },
   {
     label: "All-India Youth Tailoring Unit",
-    label_te: "అఖిల భారత యువత టైలరింగ్ యూనిట్",
+    label_te: "అఖిల భారత యువత టైలరింగ్ యూనిట్", label_hi: "अखिल भारतीय युवा सिलाई इकाई",
     state: "All India",
     district: "All Districts",
     mandal: "All Mandals / Blocks",
     text_en: "I am 24 years old unemployed youth in rural India, BC category, want to start a tailoring micro business, income 1.1 lakh.",
     text_te: "నేను గ్రామీణ ప్రాంతంలో 24 ఏళ్ల నిరుద్యోగ యువకుడిని, BC కేటగిరీ, టైలరింగ్ చిన్న వ్యాపారం ప్రారంభించాలనుకుంటున్నాను, ఆదాయం 1.1 లక్షలు.",
+    text_hi: "मैं ग्रामीण भारत में 24 वर्षीय बेरोज़गार युवा हूँ, BC श्रेणी, सिलाई का छोटा व्यवसाय शुरू करना चाहता हूँ, वार्षिक आय 1.1 लाख रुपये।",
+    text_hi: "मैं ग्रामीण भारत में 24 वर्षीय बेरोज़गार युवा हूँ, BC श्रेणी, सिलाई का छोटा व्यवसाय शुरू करना चाहता हूँ, वार्षिक आय 1.1 लाख रुपये।",
   },
   {
     label: "Missing Details Test",
-    label_te: "వివరాలు అసంపూర్తిగా ఉన్న విద్యార్థి",
+    label_te: "వివరాలు అసంపూర్తిగా ఉన్న విద్యార్థి", label_hi: "अधूरे विवरण वाला छात्र",
     state: "Telangana",
     district: "Hyderabad",
     mandal: "Secunderabad",
     text_en: "I am studying degree and need scholarship help.",
     text_te: "నేను డిగ్రీ చదువుతున్నాను, నాకు స్కాలర్‌షిప్ సహాయం కావాలి.",
+    text_hi: "मैं डिग्री की पढ़ाई कर रहा हूँ और मुझे छात्रवृत्ति सहायता चाहिए।",
+    text_hi: "मैं डिग्री की पढ़ाई कर रहा हूँ और मुझे छात्रवृत्ति सहायता चाहिए।",
   },
 ];
 
 const HOUSEHOLD_MEMBERS = [
-  { id: "senior", label: "+ Elderly Parent (70+)", label_te: "+ వృద్ధ తల్లిదండ్రులు (70+)", group: "health" },
-  { id: "sibling", label: "+ College Sibling", label_te: "+ కాలేజీ సోదరి/సోదరుడు", group: "student" },
-  { id: "artisan", label: "+ Home Business / Artisan", label_te: "+ గృహ వ్యాపారం / చేతివృత్తి", group: "business" },
+  { id: "senior", label: "+ Elderly Parent (70+)", label_te: "+ వృద్ధ తల్లిదండ్రులు (70+)", label_hi: "+ वरिष्ठ माता-पिता (70+)", group: "health" },
+  { id: "sibling", label: "+ College Sibling", label_te: "+ కాలేజీ సోదరి/సోదరుడు", label_hi: "+ कॉलेज भाई/बहन", group: "student" },
+  { id: "artisan", label: "+ Home Business / Artisan", label_te: "+ గృహ వ్యాపారం / చేతివృత్తి", label_hi: "+ घरेलू व्यवसाय / कारीगर", group: "business" },
 ];
 
 const estimateRupeeValue = (benefitText: string): number => {
@@ -126,7 +134,7 @@ export default function ManaSahayamApp() {
   // 3-Step Guided Flow State: "details" -> "opportunities" -> "opportunity-detail"
   const [step, setStep] = useState<"details" | "opportunities" | "opportunity-detail">("details");
 
-  const [lang, setLang] = useState<"en" | "te">("en");
+  const [lang, setLang] = useState<"en" | "te" | "hi">("en");
   const [schemes, setSchemes] = useState<Scheme[]>(INITIAL_SCHEMES);
   const [inputText, setInputText] = useState(SAMPLE_PROFILES[0].text_en);
   const [isListening, setIsListening] = useState(false);
@@ -241,14 +249,19 @@ export default function ManaSahayamApp() {
     );
   };
 
-  const switchLanguage = () => {
-    const nextLang = lang === "en" ? "te" : "en";
+  const selectLanguage = (nextLang: "en" | "te" | "hi") => {
     setLang(nextLang);
     const matchedSample = SAMPLE_PROFILES.find(
-      (p) => p.text_en === inputText || p.text_te === inputText
-    );
+      (p: any) => p.text_en === inputText || p.text_te === inputText || p.text_hi === inputText
+    ) as any;
     if (matchedSample) {
-      setInputText(nextLang === "te" ? matchedSample.text_te : matchedSample.text_en);
+      setInputText(
+        nextLang === "te"
+          ? matchedSample.text_te
+          : nextLang === "hi"
+          ? matchedSample.text_hi || matchedSample.text_en
+          : matchedSample.text_en
+      );
     }
   };
 
@@ -263,20 +276,20 @@ export default function ManaSahayamApp() {
     }
 
     const voices = window.speechSynthesis.getVoices();
-    const teVoice = voices.find((v) => v.lang.toLowerCase().startsWith("te"));
+    const targetVoice = voices.find((v) => v.lang.toLowerCase().startsWith(lang));
     let finalSpeech = textToRead;
     let speechLang = "en-IN";
 
-    if (lang === "te" && teVoice) {
-      speechLang = teVoice.lang;
-    } else if (lang === "te" && !teVoice) {
+    if (lang !== "en" && targetVoice) {
+      speechLang = targetVoice.lang;
+    } else if (lang !== "en" && !targetVoice) {
       finalSpeech =
-        textToRead.replace(/[\u0C00-\u0C7F]+/g, " ").replace(/\s+/g, " ").trim() ||
+        textToRead.replace(/[\u0900-\u097F\u0C00-\u0C7F]+/g, " ").replace(/\s+/g, " ").trim() ||
         "Scheme eligibility details are shown on screen.";
     }
 
     const utterance = new SpeechSynthesisUtterance(finalSpeech);
-    if (lang === "te" && teVoice) utterance.voice = teVoice;
+    if (lang !== "en" && targetVoice) utterance.voice = targetVoice;
     utterance.lang = speechLang;
     utterance.rate = 0.92;
     utterance.onend = () => setSpeakingId(null);
@@ -435,7 +448,7 @@ export default function ManaSahayamApp() {
       }
     };
 
-    startRecognition(lang === "te" ? "te-IN" : "en-IN", true);
+    startRecognition(lang === "te" ? "te-IN" : lang === "hi" ? "hi-IN" : "en-IN", true);
   };
 
   const activeGroups = [
@@ -526,9 +539,16 @@ export default function ManaSahayamApp() {
     evaluatedSchemes[0];
   const selectedScheme = selectedEval.scheme;
 
+  const t = (en: string, te: string, hi: string) => (lang === "hi" ? hi : lang === "te" ? te : en);
+  const sName = (s: Scheme) => (lang === "hi" ? s.name_hi : lang === "te" ? s.name_te : s.name);
+  const sBenefit = (s: Scheme) => (lang === "hi" ? s.benefit_hi : lang === "te" ? s.benefit_te : s.benefit);
+  const sReasons = (s: Scheme) => (lang === "hi" ? s.rule_reasons_hi : lang === "te" ? s.rule_reasons_te : s.rule_reasons);
+  const sDocs = (s: Scheme) => (lang === "hi" ? s.documents_hi : lang === "te" ? s.documents_te : s.documents);
+  const sSteps = (s: Scheme) => (lang === "hi" ? s.steps_hi : lang === "te" ? s.steps_te : s.steps);
+
   const pinnedSchemes = schemes.filter((s) => pinnedIds.includes(s.id));
 
-  const activeDocsList = lang === "en" ? selectedScheme.documents : selectedScheme.documents_te;
+  const activeDocsList = sDocs(selectedScheme);
   const completedDocsCount = activeDocsList.filter((_, idx) => !!checkedDocs[`${selectedScheme.id}-${idx}`]).length;
   const docProgressPct = activeDocsList.length > 0 ? Math.round((completedDocsCount / activeDocsList.length) * 100) : 0;
 
@@ -536,6 +556,8 @@ export default function ManaSahayamApp() {
     const diff = Math.ceil((new Date(dateStr).getTime() - Date.now()) / (1000 * 60 * 60 * 24));
     return diff > 0 ? diff : 0;
   };
+
+
 
   const downloadCalendarReminder = () => {
     const deadlineDate = new Date(selectedScheme.deadline);
@@ -634,15 +656,19 @@ export default function ManaSahayamApp() {
                 <Landmark className="w-5 h-5 text-amber-300" />
               </div>
               <h1 className="font-extrabold text-xl md:text-2xl tracking-tight text-white">
-                {lang === "en"
-                  ? "Mana Sahayam — All-India Scheme Navigator"
-                  : "మన సహాయం — అఖిల భారత పథకాల మార్గదర్శి"}
+                {lang === "hi"
+                  ? "मन सहायम — अखिल भारतीय योजना मार्गदर्शक"
+                  : lang === "te"
+                  ? "మన సహాయం — అఖిల భారత పథకాల మార్గదర్శి"
+                  : "Mana Sahayam — All-India Scheme Navigator"}
               </h1>
             </div>
             <p className="text-xs text-slate-400 mt-1">
-              {lang === "en"
-                ? "Central & State Government Welfare, Scholarship & Subsidy Discovery Portal"
-                : "కేంద్ర & రాష్ట్ర ప్రభుత్వ సంక్షేమ, స్కాలర్‌షిప్ & సబ్సిడీ పథకాల వేదిక"}
+              {lang === "hi"
+                ? "केंद्र और राज्य सरकार की कल्याण, छात्रवृत्ति और सब्सिडी योजनाओं का पोर्टल"
+                : lang === "te"
+                ? "కేంద్ర & రాష్ట్ర ప్రభుత్వ సంక్షేమ, స్కాలర్‌షిప్ & సబ్సిడీ పథకాల వేదిక"
+                : "Central & State Government Welfare, Scholarship & Subsidy Discovery Portal"}
             </p>
           </div>
 
@@ -656,7 +682,7 @@ export default function ManaSahayamApp() {
                   step === "details" ? "bg-emerald-600 text-white" : "text-slate-400 hover:text-white"
                 }`}
               >
-                1. {lang === "en" ? "Enter Details" : "వివరాలు"}
+                1. {lang === "hi" ? "विवरण दर्ज करें" : lang === "te" ? "వివరాలు" : "Enter Details"}
               </button>
               <ChevronRight className="w-3.5 h-3.5 text-slate-600" />
               <button
@@ -665,7 +691,7 @@ export default function ManaSahayamApp() {
                   step === "opportunities" ? "bg-emerald-600 text-white" : "text-slate-400 hover:text-white"
                 }`}
               >
-                2. {lang === "en" ? `Opportunities (${eligibleAreaSchemes.length})` : `పథకాలు (${eligibleAreaSchemes.length})`}
+                2. {lang === "hi" ? `योजनाएं (${eligibleAreaSchemes.length})` : lang === "te" ? `పథకాలు (${eligibleAreaSchemes.length})` : `Opportunities (${eligibleAreaSchemes.length})`}
               </button>
               <ChevronRight className="w-3.5 h-3.5 text-slate-600" />
               <button
@@ -674,7 +700,7 @@ export default function ManaSahayamApp() {
                   step === "opportunity-detail" ? "bg-emerald-600 text-white" : "text-slate-400 hover:text-white"
                 }`}
               >
-                3. {lang === "en" ? "Scheme Guide" : "పూర్తి వివరాలు"}
+                3. {lang === "hi" ? "योजना मार्गदर्शिका" : lang === "te" ? "పూర్తి వివరాలు" : "Scheme Guide"}
               </button>
             </div>
 
@@ -711,23 +737,38 @@ export default function ManaSahayamApp() {
                 className="flex items-center gap-1.5 bg-rose-950/80 hover:bg-rose-900 border border-rose-500/50 text-rose-200 px-3 py-1.5 rounded-xl text-xs font-semibold transition"
               >
                 <ShieldAlert className="w-4 h-4 text-rose-400" />
-                {lang === "en" ? "Scam Link Shield" : "నకిలీ లింక్ తనిఖీ"}
+                {t("Scam Link Shield", "నకిలీ లింక్ తనిఖీ", "फर्जी लिंक जांच")}
               </button>
 
-              <button
-                onClick={switchLanguage}
-                className="flex items-center gap-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 px-3 py-1.5 rounded-xl text-xs font-semibold transition"
-              >
-                <Languages className="w-4 h-4 text-emerald-400" />
-                {lang === "en" ? "తెలుగులోకి మార్చండి" : "Switch to English"}
-              </button>
+              <div className="flex items-center gap-1 bg-slate-950 border border-slate-700 p-1 rounded-xl text-xs font-bold">
+                <Languages className="w-3.5 h-3.5 text-emerald-400 ml-1.5 mr-0.5" />
+                {(
+                  [
+                    { code: "en", label: "English" },
+                    { code: "te", label: "తెలుగు" },
+                    { code: "hi", label: "हिन्दी" },
+                  ] as const
+                ).map((item) => (
+                  <button
+                    key={item.code}
+                    onClick={() => selectLanguage(item.code)}
+                    className={`px-2.5 py-1 rounded-lg transition ${
+                      lang === item.code
+                        ? "bg-emerald-600 text-white shadow"
+                        : "text-slate-300 hover:bg-slate-800"
+                    }`}
+                  >
+                    {item.label}
+                  </button>
+                ))}
+              </div>
 
               <button
                 onClick={() => setShowRuleEditor(true)}
                 className="flex items-center gap-1.5 bg-indigo-600 hover:bg-indigo-500 px-3.5 py-1.5 rounded-xl text-xs font-semibold shadow transition"
               >
                 <Sliders className="w-4 h-4" />
-                {lang === "en" ? "Live Rule Editor" : "నియమాల ఎడిటర్"}
+                {t("Live Rule Editor", "నియమాల ఎడిటర్", "नियम संपादक")}
               </button>
             </div>
           </div>
@@ -746,12 +787,10 @@ export default function ManaSahayamApp() {
             <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-800 pb-4">
               <div>
                 <span className="text-xs font-bold uppercase tracking-wider text-emerald-400">
-                  {lang === "en" ? "Step 1 of 3 • Citizen & Household Profile" : "దశ 1 / 3 • మీ & కుటుంబ వివరాలు"}
+                  {t("Step 1 of 3 • Citizen & Household Profile", "దశ 1 / 3 • మీ & కుటుంబ వివరాలు", "चरण 1 / 3 • नागरिक एवं परिवार विवरण")}
                 </span>
                 <h2 className="text-2xl font-extrabold text-white mt-1">
-                  {lang === "en"
-                    ? "Tell us about yourself & your location"
-                    : "మీ గురించి మరియు మీ ప్రాంతం గురించి చెప్పండి"}
+                  {t("Tell us about yourself & your location", "మీ గురించి మరియు మీ ప్రాంతం గురించి చెప్పండి", "अपने और अपने क्षेत्र के बारे में बताएं")}
                 </h2>
               </div>
 
@@ -766,21 +805,15 @@ export default function ManaSahayamApp() {
               >
                 <Mic className="w-4 h-4" />
                 {isListening
-                  ? lang === "en"
-                    ? "Listening... (Tap to Stop)"
-                    : "వింటోంది... (ఆపడానికి నొక్కండి)"
-                  : lang === "en"
-                  ? "Speak to Write (Te/En)"
-                  : "మాట్లాడి రాయండి (తెలుగు/En)"}
+                  ? t("Listening... (Tap to Stop)", "వింటోంది... (ఆపడానికి నొక్కండి)", "सुन रहा है... (रोकने के लिए दबाएं)")
+                  : t("Speak to Write (En/Te/Hi)", "మాట్లాడి రాయండి (తెలుగు/En)", "बोलकर लिखें (हिन्दी/En)")}
               </button>
             </div>
 
             {/* Plain-Language & Voice Textarea */}
             <div className="space-y-2">
               <label className="text-xs font-semibold text-slate-300 block">
-                {lang === "en"
-                  ? "Describe your situation in plain words (English or Telugu):"
-                  : "మీ పరిస్థితిని సాధారణ మాటల్లో వివరించండి:"}
+                {t("Describe your situation in plain words (English, Telugu, or Hindi):", "మీ పరిస్థితిని సాధారణ మాటల్లో వివరించండి:", "अपनी स्थिति सरल शब्दों में बताएं (हिन्दी, तेलुगु या अंग्रेजी):")}
               </label>
               <textarea
                 rows={3}
@@ -810,7 +843,7 @@ export default function ManaSahayamApp() {
             {/* 1-Click Regional Sample Personas */}
             <div>
               <p className="text-xs text-slate-400 mb-2 font-medium">
-                {lang === "en" ? "Quick-Fill Sample Profiles (1-Click):" : "నమూనా ప్రొఫైల్ ఎంచుకోండి (1-క్లిక్):"}
+                {t("Quick-Fill Sample Profiles (1-Click):", "నమూనా ప్రొఫైల్ ఎంచుకోండి (1-క్లిక్):", "नमूना प्रोफ़ाइल चुनें (1-क्लिक):")}
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                 {SAMPLE_PROFILES.map((p, idx) => (
@@ -826,7 +859,7 @@ export default function ManaSahayamApp() {
                     className="text-left bg-slate-950 hover:bg-slate-800 border border-slate-800 hover:border-emerald-500/50 p-3 rounded-xl text-xs transition"
                   >
                     <div className="font-semibold text-slate-200">
-                      {lang === "en" ? p.label : p.label_te}
+                      {t(p.label, p.label_te, (p as any).label_hi || p.label)}
                     </div>
                   </button>
                 ))}
@@ -837,13 +870,11 @@ export default function ManaSahayamApp() {
             <div className="bg-slate-950 border border-slate-800 rounded-2xl p-4 space-y-3">
               <div className="text-xs font-bold text-slate-300 flex items-center gap-1.5">
                 <MapPin className="w-4 h-4 text-rose-400" />
-                {lang === "en"
-                  ? "Select Your Region (State → District → Mandal → Area)"
-                  : "మీ ప్రాంతాన్ని ఎంచుకోండి (రాష్ట్రం → జిల్లా → మండలం → ప్రాంతం)"}
+                {t("Select Your Region (State → District → Mandal → Area)", "మీ ప్రాంతాన్ని ఎంచుకోండి (రాష్ట్రం → జిల్లా → మండలం → ప్రాంతం)", "अपना क्षेत्र चुनें (राज्य → जिला → मंडल → क्षेत्र)")}
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-xs">
                 <label className="bg-slate-900 p-2.5 rounded-xl border border-slate-800">
-                  <span className="text-slate-400 block">{lang === "en" ? "State" : "రాష్ట్రం"}</span>
+                  <span className="text-slate-400 block">{t("State", "రాష్ట్రం", "राज्य")}</span>
                   <select
                     value={selectedState}
                     onChange={(e) => handleStateChange(e.target.value)}
@@ -858,7 +889,7 @@ export default function ManaSahayamApp() {
                 </label>
 
                 <label className="bg-slate-900 p-2.5 rounded-xl border border-slate-800">
-                  <span className="text-slate-400 block">{lang === "en" ? "District" : "జిల్లా"}</span>
+                  <span className="text-slate-400 block">{t("District", "జిల్లా", "जिला")}</span>
                   <select
                     value={selectedDistrict}
                     onChange={(e) => handleDistrictChange(e.target.value)}
@@ -873,7 +904,7 @@ export default function ManaSahayamApp() {
                 </label>
 
                 <label className="bg-slate-900 p-2.5 rounded-xl border border-slate-800">
-                  <span className="text-slate-400 block">{lang === "en" ? "Mandal" : "మండలం"}</span>
+                  <span className="text-slate-400 block">{t("Mandal", "మండలం", "मंडल")}</span>
                   <select
                     value={selectedMandal}
                     onChange={(e) => setSelectedMandal(e.target.value)}
@@ -888,17 +919,17 @@ export default function ManaSahayamApp() {
                 </label>
 
                 <label className="bg-slate-900 p-2.5 rounded-xl border border-slate-800">
-                  <span className="text-slate-400 block">{lang === "en" ? "Area Type" : "ప్రాంతం"}</span>
+                  <span className="text-slate-400 block">{t("Area Type", "ప్రాంతం", "क्षेत्र प्रकार")}</span>
                   <select
                     value={area}
                     onChange={(e) => setArea(e.target.value as "Rural" | "Urban")}
                     className="bg-transparent font-bold text-emerald-300 w-full mt-1 focus:outline-none"
                   >
                     <option value="Rural" className="bg-slate-900">
-                      {lang === "en" ? "Rural" : "గ్రామీణ (Rural)"}
+                      {t("Rural", "గ్రామీణ (Rural)", "ग्रामीण (Rural)")}
                     </option>
                     <option value="Urban" className="bg-slate-900">
-                      {lang === "en" ? "Urban" : "పట్టణ (Urban)"}
+                      {t("Urban", "పట్టణ (Urban)", "शहरी (Urban)")}
                     </option>
                   </select>
                 </label>
@@ -910,11 +941,11 @@ export default function ManaSahayamApp() {
               <div className="bg-slate-950 border border-slate-800 rounded-2xl p-4 space-y-2.5">
                 <div className="text-xs font-bold text-slate-300 flex items-center gap-1.5">
                   <Sparkles className="w-4 h-4 text-emerald-400" />
-                  {lang === "en" ? "Category & Annual Income" : "కేటగిరీ & వార్షిక ఆదాయం"}
+                  {t("Category & Annual Income", "కేటగిరీ & వార్షిక ఆదాయం", "श्रेणी और वार्षिक आय")}
                 </div>
                 <div className="grid grid-cols-2 gap-2 text-xs">
                   <label className="bg-slate-900 p-2.5 rounded-xl border border-slate-800">
-                    <span className="text-slate-400 block">{lang === "en" ? "Category" : "కేటగిరీ"}</span>
+                    <span className="text-slate-400 block">{t("Category", "కేటగిరీ", "श्रेणी")}</span>
                     <select
                       value={category}
                       onChange={(e) => setCategory(e.target.value)}
@@ -932,7 +963,7 @@ export default function ManaSahayamApp() {
 
                   <label className="bg-slate-900 p-2.5 rounded-xl border border-slate-800">
                     <span className="text-slate-400 block">
-                      {lang === "en" ? "Income (₹/yr)" : "ఆదాయం (₹/సం.)"}
+                      {t("Income (₹/yr)", "ఆదాయం (₹/సం.)", "वार्षिक आय (₹)")}
                     </span>
                     <input
                       type="number"
@@ -948,7 +979,7 @@ export default function ManaSahayamApp() {
               <div className="bg-slate-950 border border-slate-800 rounded-2xl p-4 space-y-2.5">
                 <div className="text-xs font-bold text-indigo-300 flex items-center gap-1.5">
                   <Users className="w-4 h-4" />
-                  {lang === "en" ? "Household Benefit Bundler (Optional)" : "కుటుంబ సభ్యులను కలపండి (ఐచ్ఛికం)"}
+                  {t("Household Benefit Bundler (Optional)", "కుటుంబ సభ్యులను కలపండి (ఐచ్ఛికం)", "परिवार के सदस्यों को जोड़ें (वैकल्पिक)")}
                 </div>
                 <div className="flex flex-wrap gap-1.5">
                   {HOUSEHOLD_MEMBERS.map((m) => {
@@ -964,7 +995,7 @@ export default function ManaSahayamApp() {
                             : "bg-slate-900 text-slate-300 border-slate-700 hover:border-slate-500"
                         }`}
                       >
-                        {lang === "en" ? m.label : m.label_te}
+                        {t(m.label, m.label_te, (m as any).label_hi || m.label)}
                       </button>
                     );
                   })}
@@ -977,9 +1008,7 @@ export default function ManaSahayamApp() {
               <div className="flex items-center gap-2 text-xs text-slate-400">
                 <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" />
                 <span>
-                  {lang === "en"
-                    ? "Zero Aadhaar/ID required • Instant eligibility check"
-                    : "ఆధార్/ID అవసరం లేదు • తక్షణ అర్హత తనిఖీ"}
+                  {t("Zero Aadhaar/ID required • Instant eligibility check", "ఆధార్/ID అవసరం లేదు • తక్షణ అర్హత తనిఖీ", "आधार/ID की आवश्यकता नहीं • त्वरित पात्रता जांच")}
                 </span>
               </div>
 
@@ -990,9 +1019,7 @@ export default function ManaSahayamApp() {
                 }}
                 className="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm px-7 py-3.5 rounded-2xl flex items-center justify-center gap-2 shadow-lg shadow-emerald-950/50 transition"
               >
-                {lang === "en"
-                  ? `Find Eligible Opportunities (${eligibleAreaSchemes.length})`
-                  : `అర్హత గల పథకాలను చూడండి (${eligibleAreaSchemes.length})`}
+                {t(`Find Eligible Opportunities (${eligibleAreaSchemes.length})`, `అర్హత గల పథకాలను చూడండి (${eligibleAreaSchemes.length})`, `पात्र योजनाएं देखें (${eligibleAreaSchemes.length})`)}
                 <ArrowRight className="w-4 h-4" />
               </button>
             </div>
@@ -1013,13 +1040,11 @@ export default function ManaSahayamApp() {
                 className="flex items-center gap-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-100 px-3.5 py-2 rounded-xl text-xs font-bold transition"
               >
                 <ArrowLeft className="w-4 h-4" />
-                {lang === "en" ? "Edit Details" : "వివరాలు మార్చండి"}
+                {t("Edit Details", "వివరాలు మార్చండి", "विवरण बदलें")}
               </button>
               <div>
                 <h2 className="font-extrabold text-lg text-white">
-                  {lang === "en"
-                    ? `Matched Opportunities for ${selectedMandal}, ${selectedDistrict}`
-                    : `${selectedMandal}, ${selectedDistrict} కోసం అర్హత గల పథకాలు`}
+                  {t(`Matched Opportunities for ${selectedMandal}, ${selectedDistrict}`, `${selectedMandal}, ${selectedDistrict} కోసం అర్హత గల పథకాలు`, `${selectedMandal}, ${selectedDistrict} के लिए पात्र योजनाएं`)}
                 </h2>
                 <p className="text-xs text-slate-400">
                   {selectedState} • {area} • Category: <strong className="text-slate-200">{category}</strong> • Income:{" "}
@@ -1035,7 +1060,7 @@ export default function ManaSahayamApp() {
               <TrendingUp className="w-5 h-5 text-emerald-400" />
               <div>
                 <div className="text-[10px] uppercase tracking-wider text-emerald-300 font-bold">
-                  {lang === "en" ? "Est. Combined Live Support" : "అంచనా మొత్తం లైవ్ ప్రయోజనం"}
+                  {t("Est. Combined Live Support", "అంచనా మొత్తం లైవ్ ప్రయోజనం", "अनुमानित कुल लाइव सहायता")}
                 </div>
                 <div className="text-base font-extrabold text-white">
                   Up to ₹{totalLiveBenefitValue.toLocaleString("en-IN")} / yr
@@ -1147,7 +1172,7 @@ export default function ManaSahayamApp() {
                   lang === "te"
                     ? `${scheme.name_te}. ప్రయోజనం: ${scheme.benefit_te}.`
                     : `${scheme.name}. Benefit: ${scheme.benefit}. Status: ${scheme.lifecycle}.`;
-                const reasons = lang === "en" ? scheme.rule_reasons : scheme.rule_reasons_te;
+                const reasons = sReasons(scheme);
 
                 const lifecycleBadge =
                   scheme.lifecycle === "Live"
@@ -1188,7 +1213,7 @@ export default function ManaSahayamApp() {
                             }`}
                           >
                             <Volume2 className="w-3.5 h-3.5" />
-                            {lang === "en" ? "Listen" : "వినండి"}
+                            {t("Listen", "వినండి", "सुनें")}
                           </button>
                           <button
                             onClick={(e) => togglePin(scheme.id, e)}
@@ -1205,16 +1230,16 @@ export default function ManaSahayamApp() {
 
                       <div>
                         <h3 className="font-bold text-base text-white">
-                          {lang === "en" ? scheme.name : scheme.name_te}
+                          {sName(scheme)}
                         </h3>
                         <p className="text-xs text-emerald-300 font-semibold mt-1">
-                          {lang === "en" ? scheme.benefit : scheme.benefit_te}
+                          {sBenefit(scheme)}
                         </p>
                       </div>
 
                       <div className="bg-slate-950 rounded-xl p-3 text-xs space-y-1 border border-slate-800/80">
                         <div className="font-semibold text-slate-300">
-                          {lang === "en" ? "Why this matches:" : "ఈ పథకం ఎందుకు సరిపోతుంది:"}
+                          {t("Why this matches:", "ఈ పథకం ఎందుకు సరిపోతుంది:", "यह योजना क्यों उपयुक्त है:")}
                         </div>
                         <ul className="list-disc pl-4 text-slate-400 space-y-0.5">
                           <li>
@@ -1237,7 +1262,7 @@ export default function ManaSahayamApp() {
                           : `Deadline: ${scheme.deadline}`}
                       </span>
                       <span className="text-emerald-400 font-bold flex items-center gap-1">
-                        {lang === "en" ? "View Full Guide & Checklist" : "పూర్తి వివరాలు & చెక్‌లిస్ట్ చూడండి"}
+                        {t("View Full Guide & Checklist", "పూర్తి వివరాలు & చెక్‌లిస్ట్ చూడండి", "पूरी मार्गदर्शिका और चेकलिस्ट देखें")}
                         <ArrowRight className="w-4 h-4" />
                       </span>
                     </div>
@@ -1299,7 +1324,7 @@ export default function ManaSahayamApp() {
               className="flex items-center gap-2 bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-100 px-4 py-2 rounded-xl text-xs font-bold transition"
             >
               <ArrowLeft className="w-4 h-4" />
-              {lang === "en" ? "Back to All Opportunities" : "అన్ని పథకాలకు తిరిగి వెళ్ళండి"}
+              {t("Back to All Opportunities", "అన్ని పథకాలకు తిరిగి వెళ్ళండి", "सभी योजनाओं पर वापस जाएं")}
             </button>
 
             <div className="flex items-center gap-2">
@@ -1326,10 +1351,10 @@ export default function ManaSahayamApp() {
             <div className="flex flex-wrap items-start justify-between gap-4">
               <div className="space-y-1.5 max-w-2xl">
                 <h2 className="text-2xl font-extrabold text-white">
-                  {lang === "en" ? selectedScheme.name : selectedScheme.name_te}
+                  {sName(selectedScheme)}
                 </h2>
                 <p className="text-base text-emerald-300 font-semibold">
-                  {lang === "en" ? selectedScheme.benefit : selectedScheme.benefit_te}
+                  {sBenefit(selectedScheme)}
                 </p>
                 <p className="text-xs text-slate-400">
                   Verified: {selectedScheme.last_verified} • Official Portal Fee: ₹0 • Region: {selectedMandal}, {selectedDistrict} ({area})
@@ -1349,7 +1374,7 @@ export default function ManaSahayamApp() {
                   className="flex items-center gap-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 px-3.5 py-2 rounded-xl text-xs font-bold"
                 >
                   <Volume2 className="w-4 h-4 text-emerald-400" />
-                  {lang === "en" ? "Read Aloud" : "వినండి"}
+                  {t("Read Aloud", "వినండి", "पढ़कर सुनाएं")}
                 </button>
 
                 <a
@@ -1358,7 +1383,7 @@ export default function ManaSahayamApp() {
                   rel="noreferrer"
                   className="flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-xl text-xs font-extrabold shadow-lg transition"
                 >
-                  {lang === "en" ? "Apply on Official Portal" : "అధికారిక పోర్టల్‌లో దరఖాస్తు చేయండి"}
+                  {t("Apply on Official Portal", "అధికారిక పోర్టల్‌లో దరఖాస్తు చేయండి", "आधिकारिक पोर्टल पर आवेदन करें")}
                   <ExternalLink className="w-4 h-4" />
                 </a>
               </div>
@@ -1367,7 +1392,7 @@ export default function ManaSahayamApp() {
             {/* Eligibility Breakdown Box */}
             <div className="bg-slate-950 border border-slate-800 rounded-2xl p-4 space-y-2">
               <div className="text-xs font-bold uppercase tracking-wider text-emerald-400">
-                {lang === "en" ? "Eligibility & Policy Rules Breakdown" : "అర్హత & నియమాల వివరాలు"}
+                {t("Eligibility & Policy Rules Breakdown", "అర్హత & నియమాల వివరాలు", "पात्रता और नीति नियम विवरण")}
               </div>
               <ul className="list-disc pl-5 text-xs text-slate-300 space-y-1">
                 <li>
@@ -1380,7 +1405,7 @@ export default function ManaSahayamApp() {
                   <strong className="text-white">{selectedScheme.eligible_categories.join(", ")}</strong> (Your Category:{" "}
                   {category})
                 </li>
-                {(lang === "en" ? selectedScheme.rule_reasons : selectedScheme.rule_reasons_te).map((r, i) => (
+                {sReasons(selectedScheme).map((r, i) => (
                   <li key={i}>{r}</li>
                 ))}
               </ul>
@@ -1398,7 +1423,7 @@ export default function ManaSahayamApp() {
               <div className="flex items-center justify-between">
                 <h3 className="font-bold text-base text-white flex items-center gap-2">
                   <FileCheck2 className="w-5 h-5 text-emerald-400" />
-                  {lang === "en" ? "Required Documents Checklist" : "అవసరమైన పత్రాల చెక్‌లిస్ట్"}
+                  {t("Required Documents Checklist", "అవసరమైన పత్రాల చెక్‌లిస్ట్", "आवश्यक दस्तावेजों की चेकलिस्ट")}
                 </h3>
                 <button
                   onClick={() =>
@@ -1411,7 +1436,7 @@ export default function ManaSahayamApp() {
                   }
                   className="text-xs text-emerald-300 hover:underline flex items-center gap-1"
                 >
-                  <Volume2 className="w-4 h-4" /> {lang === "en" ? "Read List" : "వినండి"}
+                  <Volume2 className="w-4 h-4" /> {t("Read List", "వినండి", "सूची सुनें")}
                 </button>
               </div>
 
@@ -1469,10 +1494,10 @@ export default function ManaSahayamApp() {
             >
               <div className="space-y-3">
                 <h3 className="font-bold text-base text-white">
-                  {lang === "en" ? "Step-by-Step Application & Follow-Up" : "దరఖాస్తు చేసే విధానం (దశలవారీగా)"}
+                  {t("Step-by-Step Application & Follow-Up", "దరఖాస్తు చేసే విధానం (దశలవారీగా)", "चरण-दर-चरण आवेदन प्रक्रिया")}
                 </h3>
                 <ol className="list-decimal pl-5 space-y-2.5 text-xs text-slate-300 leading-relaxed">
-                  {(lang === "en" ? selectedScheme.steps : selectedScheme.steps_te).map((stepItem, i) => (
+                  {sSteps(selectedScheme).map((stepItem, i) => (
                     <li key={i} className="bg-slate-950 border border-slate-800/80 p-3 rounded-xl">
                       {stepItem}
                     </li>
@@ -1491,14 +1516,14 @@ export default function ManaSahayamApp() {
                     className="bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-100 font-semibold text-xs py-3 px-3 rounded-xl flex items-center justify-center gap-1.5 transition"
                   >
                     <MapPin className="w-4 h-4 text-rose-400" />
-                    {lang === "en" ? `MeeSeva (${selectedMandal})` : `మీసేవ (${selectedMandal})`}
+                    {t(`MeeSeva (${selectedMandal})`, `మీసేవ (${selectedMandal})`, `मीसेवा / CSC (${selectedMandal})`)}
                   </a>
                   <button
                     onClick={downloadCalendarReminder}
                     className="bg-indigo-700 hover:bg-indigo-600 text-white font-semibold text-xs py-3 px-3 rounded-xl flex items-center justify-center gap-1.5 transition"
                   >
                     <CalendarPlus className="w-4 h-4" />
-                    {lang === "en" ? "Calendar Alert (-7d)" : "క్యాలెండర్ అలర్ట్"}
+                    {t("Calendar Alert (-7d)", "క్యాలెండర్ అలర్ట్", "कैलेंडर अलर्ट (-7 दिन)")}
                   </button>
                 </div>
 
@@ -1508,14 +1533,14 @@ export default function ManaSahayamApp() {
                     className="bg-teal-700 hover:bg-teal-600 text-white font-semibold text-xs py-3 px-3 rounded-xl flex items-center justify-center gap-1.5 transition"
                   >
                     <Share2 className="w-4 h-4" />
-                    {lang === "en" ? "Send to Parents" : "WhatsApp పంపండి"}
+                    {t("Send to Parents", "WhatsApp పంపండి", "WhatsApp पर भेजें")}
                   </button>
                   <button
                     onClick={() => setShowSlipModal(true)}
                     className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs py-3 px-3 rounded-xl flex items-center justify-center gap-1.5 transition"
                   >
                     <Printer className="w-4 h-4" />
-                    {lang === "en" ? "Print Action Slip" : "యాక్షన్ స్లిప్ ప్రింట్"}
+                    {t("Print Action Slip", "యాక్షన్ స్లిప్ ప్రింట్", "एक्शन स्लिप प्रिंट करें")}
                   </button>
                 </div>
               </div>
@@ -1694,6 +1719,12 @@ export default function ManaSahayamApp() {
     </div>
   );
 }
+
+
+
+
+
+
 
 
 
