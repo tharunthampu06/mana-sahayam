@@ -1,0 +1,87 @@
+﻿@import "tailwindcss";
+
+@keyframes pageSlideFade {
+  0% {
+    opacity: 0;
+    transform: translateY(14px) scale(0.99);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes modalPopIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95) translateY(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-page-enter {
+  animation: pageSlideFade 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-modal-enter {
+  animation: modalPopIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.card-smooth-hover {
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.22s ease,
+              box-shadow 0.22s ease,
+              background-color 0.22s ease;
+}
+
+.card-smooth-hover:hover {
+  transform: translateY(-3px);
+}
+
+/* Global Tactile Click & Ripple Micro-Animations for All Buttons & Clickable Cards */
+button,
+a[href],
+.card-smooth-hover {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.16s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.2s ease,
+              background-color 0.2s ease,
+              border-color 0.2s ease,
+              opacity 0.2s ease;
+  cursor: pointer;
+}
+
+button:hover:not(:disabled),
+a[href]:hover {
+  transform: translateY(-1.5px);
+}
+
+button:active:not(:disabled),
+a[href]:active,
+.card-smooth-hover:active {
+  transform: scale(0.96) !important;
+  transition-duration: 0.07s;
+}
+
+button::after,
+a[href]::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.28) 10%, transparent 70%);
+  transform: scale(0);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.45s ease;
+}
+
+button:active:not(:disabled)::after,
+a[href]:active::after {
+  transform: scale(2.4);
+  opacity: 1;
+  transition: 0s;
+}
