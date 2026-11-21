@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import { INITIAL_SCHEMES, Scheme } from "@/data/schemes";
@@ -78,7 +78,6 @@ const SAMPLE_PROFILES = [
     text_en: "Nenu 2nd year B.Tech student ni, rural village in Ghatkesar Telangana, BC-B category, annual family income 1.2 lakh, convener quota.",
     text_te: "నేను తెలంగాణ ఘట్‌కేసర్ గ్రామీణ ప్రాంతానికి చెందిన 2వ సంవత్సరం B.Tech విద్యార్థిని, BC-B కేటగిరీ, కుటుంబ వార్షిక ఆదాయం 1.2 లక్షలు, కన్వీనర్ కోటా.",
     text_hi: "मैं तेलंगाना के घाटकेसर ग्रामीण क्षेत्र का द्वितीय वर्ष का B.Tech छात्र हूँ, BC-B श्रेणी, वार्षिक पारिवारिक आय 1.2 लाख रुपये, कन्वीनर कोटा।",
-    text_hi: "मैं तेलंगाना के घाटकेसर ग्रामीण क्षेत्र का द्वितीय वर्ष का B.Tech छात्र हूँ, BC-B श्रेणी, वार्षिक पारिवारिक आय 1.2 लाख रुपये, कन्वीनर कोटा।",
   },
   {
     label: "AP Degree Student (Urban)",
@@ -88,7 +87,6 @@ const SAMPLE_PROFILES = [
     mandal: "Vijayawada Urban",
     text_en: "I am studying B.Sc Degree in Vijayawada Andhra Pradesh, BC category, urban area, annual family income 1.8 lakh.",
     text_te: "నేను ఆంధ్రప్రదేశ్ విజయవాడలో B.Sc డిగ్రీ చదువుతున్నాను, BC కేటగిరీ, పట్టణ ప్రాంతం, కుటుంబ వార్షిక ఆదాయం 1.8 లక్షలు.",
-    text_hi: "मैं आंध्र प्रदेश के विजयवाड़ा शहरी क्षेत्र में B.Sc डिग्री की पढ़ाई कर रहा हूँ, BC श्रेणी, वार्षिक पारिवारिक आय 1.8 लाख रुपये।",
     text_hi: "मैं आंध्र प्रदेश के विजयवाड़ा शहरी क्षेत्र में B.Sc डिग्री की पढ़ाई कर रहा हूँ, BC श्रेणी, वार्षिक पारिवारिक आय 1.8 लाख रुपये।",
   },
   {
@@ -100,7 +98,6 @@ const SAMPLE_PROFILES = [
     text_en: "I am 24 years old unemployed youth in rural India, BC category, want to start a tailoring micro business, income 1.1 lakh.",
     text_te: "నేను గ్రామీణ ప్రాంతంలో 24 ఏళ్ల నిరుద్యోగ యువకుడిని, BC కేటగిరీ, టైలరింగ్ చిన్న వ్యాపారం ప్రారంభించాలనుకుంటున్నాను, ఆదాయం 1.1 లక్షలు.",
     text_hi: "मैं ग्रामीण भारत में 24 वर्षीय बेरोज़गार युवा हूँ, BC श्रेणी, सिलाई का छोटा व्यवसाय शुरू करना चाहता हूँ, वार्षिक आय 1.1 लाख रुपये।",
-    text_hi: "मैं ग्रामीण भारत में 24 वर्षीय बेरोज़गार युवा हूँ, BC श्रेणी, सिलाई का छोटा व्यवसाय शुरू करना चाहता हूँ, वार्षिक आय 1.1 लाख रुपये।",
   },
   {
     label: "Missing Details Test",
@@ -110,7 +107,6 @@ const SAMPLE_PROFILES = [
     mandal: "Secunderabad",
     text_en: "I am studying degree and need scholarship help.",
     text_te: "నేను డిగ్రీ చదువుతున్నాను, నాకు స్కాలర్‌షిప్ సహాయం కావాలి.",
-    text_hi: "मैं डिग्री की पढ़ाई कर रहा हूँ और मुझे छात्रवृत्ति सहायता चाहिए।",
     text_hi: "मैं डिग्री की पढ़ाई कर रहा हूँ और मुझे छात्रवृत्ति सहायता चाहिए।",
   },
 ];
